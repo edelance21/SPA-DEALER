@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1faee;
+    height: 100%;
+}
+
+.navbar{
+    background-color: red !important;
+    border: 2px solid black !important;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    background-color: lightcoral;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+img{
+    width: 8rem;
+    border: 2px solid black;
+    border-radius: 5rem;
+    display: flex;
+    justify-self: center;
+}
+
+.main-p{
+    text-align: center;
+}
+
+.nav-link, .navbar-brand{
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    color: red;
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    line-height: 75px;
+    font-size: 1.2em;
+}
+
+/* CRV */
+
+.h1-crv{
+    width: 75%;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.h2-crv{
+    text-align: center;
+}
+
+.p-crv {
+    text-align: center;
+}
+
+.h3-crv{
+    text-align: center;
+}
+
+.logo-crv{
+    width: 4.5rem;
+    margin-top: 0.5rem;
+}
+
+/* TOYOTA RAV4 */
+
+.h1-rav4{
+    margin-bottom: 1rem;
+    width: 85%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* MAZDA CX-90 */
+
+.h1-cx90{
+    width: 87%;
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* TUCSON */
+
+
+.h1-tucson{
+    width: 99%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (min-width: 760px) {
+    h1{
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        height: 3rem;
+        border-radius: 1rem;
+    }
+
+    .navbar-brand{
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    img{
+        width: 10rem;
+
+    }
+
+    .div-container{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        border: 1px dotted red;
+        border-radius: 2rem;
+    }
+
+    .main-p{
+        width: 40ch;
+        font-weight: 700;
+        
+    }
+
+    li:hover , .navbar-brand:hover{
+        background-color: chartreuse;
+        border-radius: 1rem;
+    }
+
+    footer{
+        position: relative;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        line-height: 150px;
+        font-size: 2.2rem;
+    }
+
+    /* CRV */
+    
+    .logo-crv{
+        width: 7rem;
+    }
+
+    .h1-crv{
+        width: 45%;
+        height: 3rem;
+    }
+
+    .p-crv{
+        font-weight: 500;
+    }
+
+    /*TOYOTA RAV4 */
+
+    .h1-rav4{
+        width: 45%;
+        height: 3rem;
+    }
+
+    /* MAZCA CX-90 */
+
+    .h1-cx90{
+        width: 45%;
+        height: 3.4rem;
+    }
+
+    /* TUCSON */
+
+    .h1-tucson{
+        width: 55%;
+        height: 4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        width: 35%;
+        height: 3.5rem;
+    }
+
+    .container-fluid{
+        display: flex;
+        gap: 3rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    ul{
+        display: flex;
+        gap: 6rem;
+    }
+
+    footer{
+        position: absolute;
+        bottom: auto;
+        height: auto;
+        font-size: 1.5rem;
+    }
+
+    html, body {
+        height: 100%;
+    }
+
+    p{
+        width: 140ch;
+        margin: auto;
+    }
+
+    /* CRV */
+
+    #carouselExampleInterval {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .h1-crv{
+        width: 25%;
+        height: 3.7rem;
+    }
+
+    /* TOYOTA RAV4 */
+
+    .h1-rav4{
+        width: 28%;
+        height: 3.2rem;
+    }
+
+    /* MAZCA CX-90 */
+
+    .h1-cx90{
+        width: 28%;
+        height: 3.4rem;
+    }
+
+    .h1-tucson{
+        width: 35%;
+        height: 4rem;
+    }
+
+}
